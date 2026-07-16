@@ -2,7 +2,6 @@
 title: "Proof Theory for Bimodal Provability Logics"
 collection: publications
 category: manuscripts
-permalink: /publication/proof-theory-for-bimodal-provability-logics
 date: 2026-05-16
 paperurl: 'https://arxiv.org/pdf/2605.12351'
 ---
