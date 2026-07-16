@@ -4,7 +4,6 @@ collection: publications
 category: manuscripts
 date: 2026-05-16
 paperurl: 'https://arxiv.org/pdf/2605.12351'
-permalink: /publications/2026-05-16-proof-theory-for-bimodal-provability-logics
 link: 'https://arxiv.org/abs/2605.12351'
 venue: ArXiv
 ---
