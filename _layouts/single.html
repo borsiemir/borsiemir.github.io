@@ -60,22 +60,26 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-        <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a>
+        <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download
+            Paper</a>
           | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
-        <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a>
+        <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download
+            Paper</a>
           | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
-        <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a>
+        <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download
+            Paper</a>
           | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl %}
-        <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a>
+        <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download
+            Paper</a>
         </p>
         {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-        <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download
+        <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download
             Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.slidesurl %}
-        <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download
+        <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download
             Slides</a></p>
         {% elsif page.slidesurl and page.bibtexurl %}
         <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a
@@ -84,10 +88,10 @@ layout: default
         <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a
             href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.bibtexurl %}
-        <p style="font-size: smaller">Authors: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download
+        <p style="font-size: smaller">Citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download
             Bibtex</a></p>
         {% elsif page.citation %}
-        <p style="font-size: smaller">Authors: {{ page.citation }}</p>
+        <p style="font-size: smaller">Citation: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
         <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.bibtexurl %}
