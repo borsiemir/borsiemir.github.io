@@ -5,7 +5,7 @@ category: conferences
 date: 2024-08-19
 link: 'http://www.aiml.net/volumes/volume15/'
 paperurl: 'http://www.aiml.net/volumes/volume15/25-MirandaEtAl.pdf'
-venue: Advances in Modal Logic 2024
+venue: Advances in Modal Logic
 authors: 'Borja Sierra Miranda, Thomas Studer, Lukas Zenger'
 ---
 Non-wellfounded proof theory results from allowing proofs of infinite height in proof theory.
