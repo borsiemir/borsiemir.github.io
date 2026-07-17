@@ -16,4 +16,4 @@ I am particularly interested in the mathematical study of the foundations of mat
 Before the PhD, I did the [Master of Logic](https://msclogic.illc.uva.nl/) at the ILLC in the University of Amsterdam.
 If you want to have a glimpse to my thesis it is available [here](https://msclogic.illc.uva.nl/theses/recent/publication/5372/On-the-Provability-Logic-of-Constructive-Arithmetic-The-%CE%A3_1-provability-logics-of-fragments-of-Heyting-Arithmetic).
 
-A (maybe not up-to-date) version of my CV is available [here](/files/cv.pdf).
+A (possibly not entirely up-to-date) version of my CV is available [here](/files/cv.pdf).
