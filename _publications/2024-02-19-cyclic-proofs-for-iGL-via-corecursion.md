@@ -6,7 +6,7 @@ date: 2024-02-19
 link: 'https://doi.org/10.4204/EPTCS.435.2'
 paperurl: 'https://arxiv.org/pdf/2310.10785'
 venue: Proceedings Twelfth Workshop on Fixed Points in Computer Science
-authors: 'Borja Sierra Miranda'
+citation: 'Borja Sierra Miranda'
 ---
 Cyclic proof theory studies proofs where cycles are allowed. This is useful for developing proof theory for logics with fixpoint operators: cycles can be used to represent the unfolding of a fixpoint. However, this cyclic character is not unique to such explicit fixpoints. For example, modal logics whose frames have a Noetherian (conversely wellfounded) condition, such as GL (Goedel-Loeb logic), S4Grz (Grzegorczyk logic) and K4Grz also have cyclic proof systems.
 
